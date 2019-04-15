@@ -1,0 +1,19 @@
+{
+  "name": "express-backend",
+  "version": "1.0.0",
+  "description": "This is a project to practice building a robust backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bobbymart1n/node-express-backend.git"
+  },
+  "author": "Bobby Martin and Mike Bobadilla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bobbymart1n/node-express-backend/issues"
+  },
+  "homepage": "https://github.com/bobbymart1n/node-express-backend#readme"
+}
