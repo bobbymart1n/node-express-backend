@@ -40,7 +40,10 @@
     "express": "^4.16.2",
     "express-flash": "0.0.2",
     "express-session": "^1.15.6",
-    "express-validator": "^4.3.0"
+    "express-validator": "^4.3.0",
+    "pg": "^7.9.0",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.2.16"
   },
   "devDependencies": {
     "@types/bcrypt-nodejs": "^0.0.30",
