@@ -4,11 +4,11 @@
    "port": 5432,
    "username": "postgres",
    "password": "docker",
-   "database": "test",
+   "database": "postgres",
    "synchronize": true,
    "logging": false,
    "entities": [
-      "src/entity/**/*.ts"
+      "dist/entity/**/*.js"
    ],
    "migrations": [
       "src/migration/**/*.ts"
@@ -22,3 +22,4 @@
       "subscribersDir": "src/subscriber"
    }
 }
+
