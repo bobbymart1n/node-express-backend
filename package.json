@@ -43,7 +43,8 @@
     "express-validator": "^4.3.0",
     "pg": "^7.9.0",
     "reflect-metadata": "^0.1.13",
-    "typeorm": "^0.2.16"
+    "typeorm": "^0.2.16",
+    "uuid": "^3.3.2"
   },
   "devDependencies": {
     "@types/bcrypt-nodejs": "^0.0.30",
@@ -74,4 +75,3 @@
     "typescript": "^3.4.3"
   }
 }
-

@@ -16,6 +16,10 @@ createConnection().then(async connection => {
     const users = await connection.manager.find(User);
     console.log("Loaded users: ", users);
 
-    console.log("Here you can setup and run express/koa/any other framework.");
+    const express = require("express");
+    const app = express();
+    const port = 4000;
+
+    app.listen(port, () => console.log(`Example app listening on port ${port}!`));
 
 }).catch(error => console.log(error));
