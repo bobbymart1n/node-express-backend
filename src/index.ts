@@ -1,7 +1,9 @@
 import express = require("express");
 import "reflect-metadata";
+import uuid from "uuid/v4";
 import { createConnection } from "typeorm";
 import { User } from "./entity/User";
+import { Item } from "./entity/Item";
 
 createConnection().then(async connection => {
     const app = express();
@@ -27,10 +29,10 @@ createConnection().then(async connection => {
 
 
 
+createConnection().then(async connection => {
 
-
-
-
+    await addUser(connection);
+    await addItem(connection);
 
     app.listen(port, () => console.log(`Example app listening on port ${port}!`));
 
