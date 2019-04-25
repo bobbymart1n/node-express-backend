@@ -27,13 +27,6 @@ createConnection().then(async connection => {
         res.send(users);
     });
 
-
-
-createConnection().then(async connection => {
-
-    await addUser(connection);
-    await addItem(connection);
-
     app.listen(port, () => console.log(`Example app listening on port ${port}!`));
 
 }).catch(error => console.log(error));
