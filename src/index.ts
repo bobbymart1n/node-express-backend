@@ -1,5 +1,5 @@
 import "reflect-metadata";
-const uuid = require("uuid/v4");
+import uuid from "uuid/v4";
 import { createConnection } from "typeorm";
 import { User } from "./entity/User";
 import { Item } from "./entity/Item";
