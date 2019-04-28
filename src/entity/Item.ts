@@ -2,6 +2,7 @@ import { Entity, PrimaryGeneratedColumn, Column } from "typeorm";
 
 @Entity()
 export class Item {
+
   @PrimaryGeneratedColumn()
   id: number;
 
@@ -16,4 +17,5 @@ export class Item {
 
   @Column()
   trackingNumber: number;
+
 }
